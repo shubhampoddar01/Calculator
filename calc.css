@@ -1,0 +1,98 @@
+/* .container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px cyan;
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+
+}
+.buttons{
+    display: grid;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.button{
+    border: 0.5px solid red;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#equal{
+    background-color: orange;
+    color: white;
+}
+#equal:hover{
+    background-color: white;
+    color: orange;
+} */
+
+body{
+    text-align: center;
+    margin: 15vh;
+
+}
+.container{
+    background-color: lightblue;
+    max-width: 35vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 15px;
+    margin: auto;
+    margin: 0px 3px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#operators{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+#operators:hover{
+    background-color: lightgray;
+    color: orange;
+}
+#equal{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    width: 110px;
+}
+#equal:hover{
+    background-color: lightgray;
+    color: orange;
+}
+.display input{
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    text-align: right;
+}
+.row{
+    margin: 5px 0px;
+}
